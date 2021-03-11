@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caja de Busqueda</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="Caja.css">
+</head>
+<body>
+    <header>
+        <img class="logoML" src="Logo_ML.png" id="logoML">
+        <input class="input" type="search" id='busqueda' placeholder="Nunca dejes de Buscar">
+       <!--  <button class='button' id='button'></button> -->
+       <div class = img__lupa>
+           <img class="img__lupa--lupa" src="ic_Search.png" alt="Logo_Search">
+        </div> 
+    </header>
+    <section id='productos' class='grid-fluid'></section>
+        <template id="producto-template"></template>
+         <article class='producto'>
+            <h2></h2>
+            <div class=author id=author></div>
+            <div class=categories id=categories></div>
+            <div class=items id=items></div>
+         </article>
+    <script src='Caja.js'></script>
+</body>
+</html>
+

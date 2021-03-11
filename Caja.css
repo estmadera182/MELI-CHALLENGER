@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    background-color: #EEEEEE;
+}
+
+header {
+    background-color: #FFE600;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoML{
+    height: 35px;
+    width: auto;
+}
+
+.input{
+    height: 35px ;
+    width: 600px;
+    margin-left: 40px; 
+    border: none;
+    font-size: 18px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+} 
+
+.input label{
+    font-size: 60px;
+}
+
+.img__lupa{
+    height: 35px;
+    width: 30px;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#busqueda { color: aqua; }
+
+
+
+.button{
+    height: 25px;
+    width: 40px;
+}
